@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <Authors>Devinoir</Authors>
+    <Description>Simple, straight forward Logger.</Description>
+    <PackageIcon>DevinoirLogoTranparent.png</PackageIcon>
+    <PackageIconUrl />
+    <PackageTags>logger</PackageTags>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\..\..\Pictures\DevinoirLogoTranparent.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
