@@ -23,7 +23,7 @@ namespace NoirLog
             Path = path;
         }
 
-        public void WriteToFile(LogLevel logLevel, string text)
+        public void Add(string text, LogLevel logLevel = LogLevel.Info)
         {
             string timeStamp = DateTime.Now.ToString("yyyy-MM-ddTHH:mm:ss");
             string logText = $"{timeStamp} - [{logLevel.ToString().ToUpper()}]: {text}\n";

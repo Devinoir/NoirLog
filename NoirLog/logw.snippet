@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+	<CodeSnippet Format="1.0.0">
+		<Header>
+			<Title>logw</Title>
+			<Shortcut>logw</Shortcut>
+			<Description>Log WARNING</Description>
+			<Author>Devinoir</Author>
+			<SnippetTypes>
+				<SnippetType>Expansion</SnippetType>
+			</SnippetTypes>
+		</Header>
+		<Snippet>
+			<Declarations>
+				<Literal>
+					<ID>text</ID>
+					<ToolTip>logText</ToolTip>
+					<Default>logText</Default>
+				</Literal>
+			</Declarations>
+			<Code Language="csharp"><![CDATA[logger.Warning("$text$");$end$]]>
+			</Code>
+		</Snippet>
+	</CodeSnippet>
+</CodeSnippets>

@@ -13,6 +13,9 @@ namespace NoirLogTest
             logger.Debug("Debug Test");
             logger.Warning("Warning Test");
             logger.Error("Error Test");
+            logger.Add("Text");
+            logger.Debug("GebugTest");
+
 
             Console.Read();
         }

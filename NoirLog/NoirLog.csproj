@@ -8,6 +8,8 @@
     <PackageIconUrl />
     <PackageTags>logger</PackageTags>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageProjectUrl>https://devinoir.net/</PackageProjectUrl>
   </PropertyGroup>
 
   <ItemGroup>
